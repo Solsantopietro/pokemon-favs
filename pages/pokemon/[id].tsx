@@ -57,7 +57,7 @@ const PokemonPage: NextPage<Props> = ({ pokemon }) => {
         <Grid xs={12} sm={8}>
           <Card>
 
-            <Card.Header css={{ display: 'flex', justifyContent: 'space-between' }}>
+            <Card.Header className='card-header-fav' css={{ display: 'flex', justifyContent: 'space-between' }}>
               <Text h1 transform='capitalize'>{pokemon.name}</Text>
               <Button color='gradient'
                 onClick={onToggleFavorite}
