@@ -12,13 +12,13 @@ export const Navbar = () => {
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'start',
-      padding: '0 50px',
+      padding: '0 10px',
       backgroundColor: theme?.colors.gray100.value
     }}>
 
       <Link href='/'>
         <Row css={{ alignItems: 'center' }}>
-          <Image width={90} alt="icono de la app = ditto" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" />
+          <Image width={90} alt="icono de la app = venusaur" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" />
           <Text color='white' h2>P</Text>
           <Text color='white' h3>okemon</Text>
         </Row>

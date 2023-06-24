@@ -1,0 +1,8 @@
+
+
+@media (max-width: 525px) {    
+    .card-header-fav{
+        display: flex;
+        flex-direction: column;
+    }
+}
